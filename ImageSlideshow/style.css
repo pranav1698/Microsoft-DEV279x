@@ -1,0 +1,32 @@
+#image{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 25%;
+}
+
+body{
+    background-color: #e63d3dbb;
+}
+
+h1{
+    text-align: center;
+}
+
+#previous {
+    width: 378;
+    height: 378;
+    background-color: rgb(68, 68, 241);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#next {
+    width: 378;
+    height: 378;
+    background-color: rgb(68, 68, 241);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
