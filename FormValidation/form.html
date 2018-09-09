@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+            <link rel = "stylesheet"
+            type = "text/css"
+            href = "style.css" />
+    </head>
+
+    <body>
+        <h1>Form Validation</h1>
+
+        <form action=" " onsubmit="return verify()"  method="POST">
+            <label for="name" id="name">Enter Name: </label>
+            <input id="name" type="text"/>
+            <br>
+            <br>
+            <p id="validationMessage" hidden>Number must be between 40-90</p>
+            <p id="nanMessage" hidden>Please enter a numeric value</p>
+
+
+            <label for="number" id="number">Enter Number between 40-90: </label>
+            <input id="number" type="text"/>
+            <br>
+            <input type="submit" />
+        </form>
+
+        <script src="script.js"></script>
+    </body>
+</html>

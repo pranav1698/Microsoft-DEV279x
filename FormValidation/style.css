@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+}
+
+form{
+    display: block;
+    margin-left: 25%;
+    padding: 10px;
+    border: 2px solid;
+    
+}
+
+input{
+    display: inline-block;
+
+}
